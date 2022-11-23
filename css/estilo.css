@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+	font-family: "Montserrat-Light" ;
+}
+@font-face {
+	font-family: 'Siracha-Regular';
+	src: url('../assets/font/Sriracha-Regular.ttf');
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../assets/font/Montserrat-Light.ttf');
+}
+h1, h2, h4{
+	font-family: "Siracha-Regular", sans-serif;
+	color:#591e91;
+	text-align: center;
+	padding: 20px;
+}
+h3{
+	font-size: 2rem;
+	text-align: center;
+	color: #0D0D3F;
+}
+#top{
+	text-align: center;
+}
+.logo{
+	width: 100px;
+	border-radius: 50%;
+}
+nav{
+	text-align: center;
+}
+.menu{
+	background-color: #96F0A7;
+	list-style-type: none;
+	padding: 0; /*para eliminar el espacio entre la lista y el borde*/
+	width: 90%;
+	margin: 20px auto; /*centra el menu*/
+}
+.menu .item{
+	display: inline-block;
+	position:relative;
+	font-size: 1rem;
+	text-align: center;
+}
+.menu .submenu{
+	position:absolute;
+	display: none;
+}
+.menu .submenu .sub_i{
+	display: block;
+	font-size: 0.8rem;
+	padding: auto;
+ }
+.menu .item a{
+	color: #1b0a2b;
+	text-decoration: none;
+	font-weight: bolder;
+	display: inline-block;
+	padding: 20px;
+}
+.menu .item a:hover{
+	color: #ddc4f5;
+}
+.menu .item:hover .submenu{
+	display: block;
+	color:white;
+}
+.menu .item:hover a{
+	background-color: #96CFF0;
+	color:white;
+}
+.section1{
+	background-image: url("../assets/img/contador.png");
+  	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	margin:50px;
+}
+.section1 p{
+	background-color: #ddc4f550;
+	color:#1b0a2b;
+	line-height: 2;
+}
+.section2{
+	background-image: url("../assets/img/contador3.jpg");
+  	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	margin:50px;
+}
+.section2 p{
+	background-color: #ddc4f550;
+	color:#1b0a2b;
+	line-height: 2;
+}
+.section3{
+	background-image: url("../assets/img/contador2.jpg");
+  	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	margin:50px;
+}
+
+.unas{
+	text-align: center;
+}
+h5{
+	color:blueviolet;
+	text-align: center;
+	padding: 20px;
+}
+footer{
+	background-color: #96F0A7;
+	height: 100px;
+}
